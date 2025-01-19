@@ -1,7 +1,7 @@
 interface StatsDisplayProps {
-  wpm: number
-  accuracy: number
-  time: number
+  wpm: number;
+  accuracy: number;
+  time: number;
 }
 
 export function StatsDisplay({ wpm, accuracy, time }: StatsDisplayProps) {
@@ -20,6 +20,5 @@ export function StatsDisplay({ wpm, accuracy, time }: StatsDisplayProps) {
         <span>time</span>
       </div>
     </div>
-  )
+  );
 }
-
